@@ -9,7 +9,7 @@
 finance-demo/<br>
 ├── app.py<br>
 ├── templates/<br>
-│   └── index.html<br>
+│&nbsp;&nbsp;&nbsp;└── index.html<br>
 ├── tests/<br>
 │   ├── test_balance.py<br>
 │   ├── test_deposit.py<br>
