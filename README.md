@@ -17,7 +17,7 @@ finance-demo/
 │   ├── test_history.py
 │   └── test_withdraw.py
 └── README.md
-       
+```
 app.py : Flask 서버 및 API 라우트 구현<br>
 index.html : 상품 목록 / 상품 상세 / 장바구니 / 로그인으로 이동하는 기본 UI 구성<br>
 
