@@ -7,15 +7,15 @@
 
 📁 프로젝트 구조
 ```plaintext
-finance-demo/
+ecommerce-demo/
 ├── app.py
 ├── templates/
 │   └── index.html
 ├── tests/
-│   ├── test_balance.py
-│   ├── test_deposit.py
-│   ├── test_history.py
-│   └── test_withdraw.py
+│   ├── cart_test.py
+│   ├── login_test.py
+│   ├── product_detail_test.py
+│   └── product_list_test.py
 └── README.md
 ```
 app.py : Flask 서버 및 API 라우트 구현<br>
@@ -28,18 +28,15 @@ HTML / CSS / jQuery<br>
 macOS (VS Code)<br>
 
 🎯 프로젝트 주요 기능<br>
-🛒 상품 목록 (/products)<br>
+1. 상품 목록 (/products)<br>
 전체 상품 리스트 표시<br>
 상품 클릭 시 상세 페이지로 이동<br>
-
-📄 상품 상세 (/product/)<br>
+2. 상품 상세 (/product/)<br>
 이미지·이름·가격 표시<br>
 장바구니 담기<br>
-
-🧺 장바구니 (/cart)<br>
+3. 장바구니 (/cart)<br>
 선택한 상품 담기<br>
-
-🔐 로그인<br>
+4. 로그인<br>
 아이디·비밀번호 입력 후 로그인 처리 및 오류 시 안내 메시지 표시<br>
 로그인 성공 시 상품 목록 이동<br>
 
