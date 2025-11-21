@@ -5,17 +5,17 @@
 상품 목록, 상품 상세, 장바구니, 로그인 같은 기본 기능을 Flask로 구현했고, 각 기능이 제대로 동작하는지 확인하기 위해 테스트 케이스도 함께 작성했습니다.<br>
 실제 쇼핑몰처럼 복잡하게 구성하지 않고, 예시 데이터를 사용해 흐름을 이해하는 데 집중한 학습용 프로젝트입니다.<br>
 
-📁 프로젝트 구조<br>
-finance-demo/<br>
-├── app.py<br>
-├── templates/<br>
-│&nbsp;&nbsp;&nbsp;└── index.html<br>
-├── tests/<br>
-│   ├── test_balance.py<br>
-│   ├── test_deposit.py<br>
-│   ├── test_history.py<br>
-│   └── test_withdraw.py<br>
-└── README.md  <br>
+📁 프로젝트 구조
+finance-demo/
+├── app.py
+├── templates/
+│   └── index.html
+├── tests/
+│   ├── test_balance.py
+│   ├── test_deposit.py
+│   ├── test_history.py
+│   └── test_withdraw.py
+└── README.md
        
 app.py : Flask 서버 및 API 라우트 구현<br>
 index.html : 상품 목록 / 상품 상세 / 장바구니 / 로그인으로 이동하는 기본 UI 구성<br>
